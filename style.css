@@ -1,0 +1,56 @@
+#h1{
+    font-size: 35px;
+    font-family: monospace;
+}
+
+button{
+    font-family: monospace;
+}
+
+
+canvas{
+    border-style: groove;
+    border-width: 3px;
+    border-color: black;
+    animation: color 9s infinite;
+}
+
+
+
+
+@keyframes color{
+    0%{
+        box-shadow: 5px 5px 38px red;
+    }
+
+    10%{
+        box-shadow: 5px 5px 38px yellow;
+    }
+
+    25%{
+        box-shadow: 5px 5px 38px rgb(15, 116, 179);
+    }
+
+    50%{
+        box-shadow: 5px 5px 38px rgb(11, 10, 1);
+    }
+    60%{
+        box-shadow: 5px 5px 38px purple;
+    }
+
+    70%{
+        box-shadow: 5px 5px 38px rgb(4, 219, 29);
+    }
+
+    85%{
+        box-shadow: 5px 5px 38px rgb(53, 5, 211);
+    }
+
+    95%{
+        box-shadow: 5px 5px 38px rgb(7, 228, 151);
+    }
+
+    100%{
+        box-shadow: 5px 5px 38px rgb(255, 81, 0);
+    }
+}
